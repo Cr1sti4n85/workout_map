@@ -1,0 +1,14 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "App to log workouts",
+  "scripts": {
+    "start": "npx parcel index.html"
+  },
+  "author": "Cristian Perez",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "parcel": "^2.10.3"
+  }
+}
