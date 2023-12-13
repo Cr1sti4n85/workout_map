@@ -603,6 +603,7 @@ const inputDistance = document.querySelector(".form__input--distance");
 const inputDuration = document.querySelector(".form__input--duration");
 const inputCadence = document.querySelector(".form__input--cadence");
 const inputElevation = document.querySelector(".form__input--elevation");
+let map, mapEvent;
 //geolocatioApi
 if (navigator.geolocation) navigator.geolocation.getCurrentPosition(function(pos) {
     const { latitude, longitude } = pos.coords;
@@ -610,42 +611,53 @@ if (navigator.geolocation) navigator.geolocation.getCurrentPosition(function(pos
         latitude,
         longitude
     ];
-    console.log(`https://www.google.com.mx/maps/@${latitude},${longitude},15z?entry=ttu`);
-    const map = (0, _leafletDefault.default).map("map").setView(coords, 13);
+    map = (0, _leafletDefault.default).map("map").setView(coords, 13);
     (0, _leafletDefault.default).tileLayer("https://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
-    map.on("click", function(mapEvent) {
-        const { lat, lng } = mapEvent.latlng;
-        (0, _leafletDefault.default).marker([
-            lat,
-            lng
-        ], {
-            icon: new (0, _leaflet.Icon)({
-                iconUrl: (0, _markerIcon2XPngDefault.default),
-                iconSize: [
-                    25,
-                    41
-                ],
-                iconAnchor: [
-                    12,
-                    41
-                ]
-            })
-        }).addTo(map).bindPopup((0, _leafletDefault.default).popup({
-            maxWidth: 250,
-            minWidth: 100,
-            offset: [
-                0,
-                -20
-            ],
-            autoClose: false,
-            closeOnClick: false,
-            className: "running-popup"
-        }).setContent("Workout ajghaprghaprgha ")).openPopup();
+    map.on("click", function(mapE) {
+        mapEvent = mapE;
+        form.classList.remove("hidden");
+        inputDistance.focus();
     });
 }, function() {
     alert("No se pudo obtener la ubicaci\xf3n");
+});
+form.addEventListener("submit", function(ev) {
+    ev.preventDefault();
+    //Clear input fields
+    inputDistance.value = inputDuration.value = inputElevation.value = inputType.value = "";
+    const { lat, lng } = mapEvent.latlng;
+    (0, _leafletDefault.default).marker([
+        lat,
+        lng
+    ], {
+        icon: new (0, _leaflet.Icon)({
+            iconUrl: (0, _markerIcon2XPngDefault.default),
+            iconSize: [
+                25,
+                41
+            ],
+            iconAnchor: [
+                12,
+                41
+            ]
+        })
+    }).addTo(map).bindPopup((0, _leafletDefault.default).popup({
+        maxWidth: 250,
+        minWidth: 100,
+        offset: [
+            0,
+            -20
+        ],
+        autoClose: false,
+        closeOnClick: false,
+        className: "running-popup"
+    })).setPopupContent("workout").openPopup();
+});
+inputType.addEventListener("change", ()=>{
+    inputElevation.closest(".form__row").classList.toggle("form__row--hidden");
+    inputCadence.closest(".form__row").classList.toggle("form__row--hidden");
 });
 
 },{"leaflet":"iFbO2","leaflet/dist/leaflet.css":"6JhOO","leaflet/dist/images/marker-icon-2x.png":"3OlqW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iFbO2":[function(require,module,exports) {

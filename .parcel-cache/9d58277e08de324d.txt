@@ -24,7 +24,7 @@
 57C:\Users\cpere\Documents\Workspace\DOM\Mapty\package.json133468114518626676 0
 96C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-tree\lib\syntax\node\Identifier.js133468112477769546 0
 105C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@swc\helpers\esm\_class_private_field_update.js133468112470932471 0
-49C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist133468739533827884 1
+49C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist133468998463013312 1
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\regions\SR.js133468112499819472 0
 79C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\csso\dist\csso.esm.js133468112462473480 0
 107C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c133468112465631513 0
@@ -65,7 +65,7 @@
 78C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\micromatch\README.md133468112424466896 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\weak-lru-cache\rollup.config.js133468112427005592 0
 93C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\leaflet\src\map\handler\Map.Drag.js133468112640497504 0
-60C:\Users\cpere\Documents\Workspace\DOM\Mapty\src\js\index.js133468739522738130 0
+60C:\Users\cpere\Documents\Workspace\DOM\Mapty\src\js\index.js133468998460974841 0
 82C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\semver\ranges\outside.js133468112448458777 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\regions\MN.js133468112493505889 0
 78C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\semver\ranges\gtr.js133468112440776681 0
@@ -328,7 +328,7 @@
 87C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-select\lib\types.d.ts.map133468112462568502 0
 104C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js133468112420518824 0
 81C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\semver\classes\range.js133468112450551652 0
-71C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.739bf03c.js.map133468739533772742 0
+71C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.739bf03c.js.map133468998462963452 0
 115C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\_path.js133468112429712387 0
 104C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\features\intl-pluralrules.js133468112489744527 0
 67C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\is-number133468112422680058 1
@@ -3478,7 +3478,7 @@
 86C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@swc\helpers\_\_to_primitive133468112483729581 1
 92C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-tree\cjs\syntax\node\index.cjs133468112462638324 0
 101C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-tree\cjs\syntax\node\MediaCondition.cjs133468112465361922 0
-77C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\marker-icon-2x.4bece028.png133468739532945194 0
+77C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\marker-icon-2x.4bece028.png133468990424508973 0
 97C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-tree\cjs\syntax\node\MediaQuery.cjs133468112465631513 0
 111C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\runtime-js\src\helpers\browser\html-loader.js133468112444071187 0
 95C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\transformer-svg\lib\inline.js133468112425067904 0
@@ -3523,7 +3523,7 @@
 88C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-tree\cjs\parser\create.cjs133468112446252378 0
 97C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\features\png-alpha.js133468112496716947 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\regions\SL.js133468112499502328 0
-68C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.c92073ef.css133468739532785128 0
+68C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.c92073ef.css133468990424476513 0
 93C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-tree\cjs\parser\SyntaxError.cjs133468112470460949 0
 86C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\css-tree\cjs\lexer\error.cjs133468112451407044 0
 100C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\features\console-time.js133468112470330227 0
@@ -4001,7 +4001,7 @@
 122C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\jsAPI.d.ts133468112467422915 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\regions\HT.js133468112487895695 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\regions\HU.js133468112488195187 0
-74C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\marker-icon.61a78335.png133468739532945194 0
+74C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\marker-icon.61a78335.png133468990424436613 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\regions\IE.js133468112488255187 0
 79C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\rust\index.js133468112424018565 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\caniuse-lite\data\regions\IL.js133468112488424493 0
@@ -4778,7 +4778,7 @@
 104C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@swc\helpers\cjs\_async_generator_delegate.cjs133468112432396554 0
 136C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133468112472407322 0
 80C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@swc\counter\README.md133468112421591720 0
-72C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\layers-2x.0d380d65.png133468739532775158 0
+72C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\layers-2x.0d380d65.png133468990424436613 0
 94C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@swc\helpers\cjs\_async_iterator.cjs133468112434611315 0
 91C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@swc\helpers\cjs\_await_value.cjs133468112436735458 0
 94C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\transformer-posthtml\LICENSE133468112417742488 0
@@ -5508,7 +5508,7 @@
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-image\LICENSE133468112417862164 0
 94C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-image\package.json133468112422309800 0
 92C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-htmlnano\LICENSE133468112417882112 0
-69C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\layers.19804faf.png133468739532775158 0
+69C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\layers.19804faf.png133468990424436613 0
 97C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-htmlnano\node_modules133468112517364961 1
 88C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-htmlnano\src133468112427190781 1
 103C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\@parcel\optimizer-htmlnano\src\svgMappings.js133468112427731917 0
@@ -5996,8 +5996,8 @@
 71C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\.bin\svgo.ps1133468112517759812 0
 85C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\.bin\update-browserslist-db133468112517769780 0
 89C:\Users\cpere\Documents\Workspace\DOM\Mapty\node_modules\.bin\update-browserslist-db.cmd133468112517769780 0
-67C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\icon.d5de67d9.png133468739532765309 0
-67C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.739bf03c.js133468739532785128 0
-72C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.c92073ef.css.map133468739533772742 0
-60C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.html133468739532487953 0
-67C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\logo.c493797d.png133468739532765309 0
+67C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\icon.d5de67d9.png133468990424436613 0
+67C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.739bf03c.js133468998462243149 0
+72C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.c92073ef.css.map133468990424598740 0
+60C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\index.html133468990424426636 0
+67C:\Users\cpere\Documents\Workspace\DOM\Mapty\dist\logo.c493797d.png133468990424436613 0
