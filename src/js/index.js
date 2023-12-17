@@ -74,6 +74,9 @@ class App {
   #workouts = [];
   constructor() {
     this._getPosition();
+
+    //get data from local storage
+    this._getLocalStorage();
     //event listener this keyword points to element of the event by default
     form.addEventListener("submit", this._newWorkout.bind(this));
     inputType.addEventListener("change", this._toggleElevationfield);
@@ -184,12 +187,19 @@ class App {
     this._setLocalStorage();
   }
   _renderWorkoutMarker(workout) {
-    L.marker(workout.coords)
+    L.marker(workout.coords, {
+      icon: new Icon({
+        iconUrl: markerIconPng,
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+      }),
+    })
       .addTo(this.#map)
       .bindPopup(
         L.popup({
           maxWidth: 250,
           minWidth: 100,
+          offset: [0, -25],
           autoClose: false,
           closeOnClick: false,
           className: `${workout.type}-popup`,
@@ -268,6 +278,23 @@ class App {
       pan: {
         duration: 1,
       },
+    });
+  }
+
+  _setLocalStorage() {
+    localStorage.setItem("workouts", JSON.stringify(this.#workouts));
+  }
+
+  _getLocalStorage() {
+    const data = JSON.parse(localStorage.getItem("workouts"));
+    console.log(data);
+
+    if (!data) return;
+
+    this.#workouts = data;
+
+    this.#workouts.forEach((work) => {
+      this._renderWorkout(work);
     });
   }
 }
